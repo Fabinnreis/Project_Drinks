@@ -1,0 +1,15 @@
+.footer {
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+  }
+
+.footerP{
+  font-size: 14px;
+  font-weight: 700;
+  color: #101010;
+  text-align: center;
+  margin: 0 auto;
+}
+
+  

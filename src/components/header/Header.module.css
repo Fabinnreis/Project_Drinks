@@ -1,0 +1,29 @@
+.header{
+    
+    background-color: #8ca0ff;
+}
+
+.myNav {
+    grid-area: header;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+.menuItem:first-child {
+    margin-left: 34px;
+}
+.menuItem {
+    font-family: "Open Sans Condensed",sans-serif;
+    font-family: var(--title-font);
+    font-size: 26px;
+    padding: 10px;
+}
+.logo, .menuItem {
+    text-decoration: none;
+    color: #101010;
+    align-self: center;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}

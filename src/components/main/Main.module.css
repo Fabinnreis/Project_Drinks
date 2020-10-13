@@ -1,0 +1,11 @@
+.main{
+    grid-area: main;
+    background-color: #ffff64;
+}
+
+.homeCover{
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    background: url(../../app/img/bg-bons-drinks.jpg) no-repeat 50%;
+    
+}
